@@ -75,67 +75,66 @@ Tab3btn.addEventListener("click", function (){
     Tab3.style.display = "block";
 })
 
-
 //Rocks Tab
 const Rocks = [
     {
         Name: `Amazoniet`,
         description: ``,
-        Price: 50,
+        Price: 100,
         Waarde: 5,
     },
     {
         Name: `Rhodoniet`,
         description: ``,
-        Price: 50,
+        Price: 150,
         Waarde: 10,
     },
     {
         Name: `Chalcedoon`,
         description: ``,
-        Price: 50,
+        Price: 500,
         Waarde: 15,
     },
     {
         Name: `Labradoriet`,
         description: ``,
-        Price: 50,
+        Price: 1500,
         Waarde: 20,
     },
     {
         Name: `Kunziet`,
         description: ``,
-        Price: 50,
+        Price: 2500,
         Waarde: 25,
     },
     {
         Name: `Apatiet`,
         description: ``,
-        Price: 50,
+        Price: 5000,
         Waarde: 30,
     },
     {
         Name: `Aventurijn`,
         description: ``,
-        Price: 50,
+        Price: 7500,
         Waarde: 35,
     },
     {
         Name: `Andes Opaal`,
         description: ``,
-        Price: 50,
+        Price: 12500,
         Waarde: 40,
     },
     {
         Name: `Agaat`,
         description: ``,
-        Price: 50,
+        Price: 20000,
         Waarde: 45,
     },
     {
         Name: `Onyx`,
         description: ``,
-        Price: 50,
+        Price: 50000,
         Waarde: 50,
     }
 ]
