@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+nav {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(72,72,72,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+#MainWindow{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    background-color: green;
+}
+#ClickWindow{
+    border-radius: 5px;
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: 5px 5px 5px 5px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+#MoneyDisplay{
+    display: flex;
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#MoneyDisplay h1{
+    margin-left: 5px;
+}
+#RockImage{
+    max-width: 95%;
+    max-height: 100%;
+    margin: 5px;
+}
+#SecondWindow{
+    border-radius: 5px;
+    width: 50%;
+    height: 500px;
+    margin: 5px 5px 5px 5px;
+    background-color: blue;
+}
+#TabWindow{
+    border-radius: 5px;
+    width: 90%;
+    height: 45px;
+    margin: 5px auto;
+    background-color: deeppink;
+    display: flex;
+}
+#TabWindowTabs{
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+#TabWindowTabs h2{
+    margin: 5px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+#TabWindowTabs h2:hover{
+    background-color: hotpink;
+}
+#ItemWindow{
+    border-radius: 5px;
+    width: 90%;
+    height: 440px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    position: relative;
+}
+.Tabs{
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Tabs h1{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+.Items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.Item{
+    margin: 5px;
+    width: 40%;
+    background-color: turquoise;
+}
+.Item h2{
+    width: 100%;
+    text-align: center;
+}
+.Item p{
+    width: 100%;
+    text-align: center;
+}
